@@ -1,0 +1,43 @@
+bin/
+obj/
+out/
+
+## VS Code & Visual Studio stuff
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+
+## Fichiers de logs
+*.log
+
+## Secrets et config locales
+appsettings.Development.json
+appsettings.Local.json
+
+## Build & packages
+*.nupkg
+*.snupkg
+packages/
+*.vspscc
+*.vssscc
+
+## Environnement et dépendances
+.env
+*.db
+
+## JetBrains
+.idea/
+
+## Autres trucs inutiles
+*.tmp
+*.bak
+*.cache
+*.DS_Store
+Thumbs.db
+
+
+appsettings.json
